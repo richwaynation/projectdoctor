@@ -6,7 +6,14 @@
     font-family: "Inter", sans-serif;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     background-color: #fff;
     padding-block: 1rem;
 }
@@ -69,6 +76,7 @@ nav{
     background: linear-gradient(90deg, #f3f7f7 65%, #034e52 35%);
 }
 .hero{
+    padding: 4rem;
     display: flex;
     gap: 4rem;
     align-items: center;
@@ -200,4 +208,385 @@ select {
     font-size: 15px;
     text-align: center;
     margin-block: 0.6rem;
+}
+
+/*styling for doctors doctors section*/
+.discover-doctors{
+    background-color: #e6edee;
+    padding-block: 3rem;
+    text-align: center;
+}
+
+.discover > h4{
+    width: 200px;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.discover > h4 > span{
+    background-color: #034e52;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discover >h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+}
+
+.discover-doctors-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.doctor-card{
+    height: 30vh;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.doctor-card> img{
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.doctor-card-content{
+    
+    width: 50%;
+}
+
+.doctor-card-content > h3{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.doctor-card-content > ul{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.doctor-card-content > ul > li{
+    list-style: none;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.doctor-card-button{
+
+}
+
+
+.About-wrapper{
+background-color: #fff;
+margin-block: 2.5rem;
+display: flex;
+padding: 1rem;
+width: 65%;
+gap: 1rem;
+text-transform:capitalize ;
+text-align: center;
+border-radius: 1%;
+box-shadow: 0.1rem 0.1rem 0.3rem ;
+
+
+}
+
+.wrapper-o{
+    color: #034e52;
+    font-weight: 800;
+}
+
+.wrapper-oo{
+    color: #034e52;
+    font-weight: 800;
+}
+
+.wrapper-ooo{
+    color: #034e52;
+    font-weight: 800;
+}
+
+.wrapper-oooo{
+    color: #034e52;
+    font-weight: 800;
+}
+
+.wrapper-ooooo{
+    color: #034e52;
+    font-weight: 800;
+}
+
+.check-image{
+    width: 100px;
+    height: 100px;
+    background-color: #034e52;
+    border-radius: 100%;
+    padding: 0.5%;
+    margin-inline-start: 10%;
+
+
+}
+
+.female-doctor-wrapper{
+    background-color:#e6edee;
+    height: 100vh;
+}
+
+.female-doctor-wrap{
+     padding-block: 4rem;
+    gap: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.femaleimage{
+    background-color: #034e52;
+   border-top-left-radius: 80px;
+   border-top-right-radius: 80px;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  
+}
+
+.female-side >h1{
+    text-transform: capitalize;
+    gap: 2rem;
+    padding-block: 2rem;
+}
+
+.female-side >p{
+    text-transform: capitalize;
+}
+
+.female-doc{
+
+align-content: center;
+justify-content: space-between;
+justify-content: space-around;
+
+
+
+}
+.female-doc >h3{
+    color: #034e52;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-block: 0.8rem;
+}
+
+.female-doc >h1{
+font-weight: 600;
+padding-block: 1rem;
+font-size: 38px;
+
+}
+
+.female-doc >ul{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    
+}
+
+.female-btn{
+background-color: #034e52;
+color: white;
+margin-top: 250px;
+border-radius: 5px;
+height: 35px;
+width: 200px;
+border: none;
+}
+
+.review-doc-section{
+    text-align: center;
+    padding-block: 2rem;
+
+}
+
+.review-doc-section >h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.review-doc-section> h4{
+    color: #034e52;
+    font-size: 25px;
+}
+
+.doctor-review-wrapper{
+    background-color:#e6edee;
+    padding-block: 2rem;
+    display: flex;
+    height: 200px;
+}
+
+.doctor-review-woman{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    
+}
+
+.doctor-ronald{
+align-items: center;
+margin-left:100px;
+
+
+}
+.doctor-review-woman >img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #034e52;
+}
+
+.doctor-review-woman :nth-child(3){
+    color: #034e52;
+}
+
+.discount-section{
+    background-color:white;
+    padding-block: 4rem;
+    text-align: center;
+    
+}
+
+.discount-section-coloumn{
+    background-color: #034e52;
+    text-transform: capitalize;
+    height: 400px;
+    padding-block: 2rem;
+}
+
+.discount-section-coloumn >h1{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-block: 1rem;
+}
+
+.discount-section-coloumn > p{
+    padding-block: 1rem;
+    color:rgb(120 143 144);
+}
+
+.discount-button{
+    height: 40px;
+    width: 500px;
+    background-color: transparent;
+    border: #f2f6f6;
+    margin-top: 1rem;
+}
+ .section-last{
+    background-color: rgb(35 35 35);
+    display: flex;
+ }
+
+ .section-last-wrapper{
+    color: white;
+    display: flex;
+    gap: 12rem;
+    text-transform: capitalize;
+
+ }
+
+ .list{
+    list-style: none;
+ }
+
+.section-last-gen{
+    display: flex;
+    gap: 12rem;
+    padding-block: 3rem;
+}
+
+.section-btn{
+    background-color: #034e52;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 4%;
+    margin-top: 20px;
+}
+
+.gen >h1 > span{
+     color: red;
+}
+
+/*respnsive styling media*/
+@media(min-width: 320px) and (max-width: 460px){
+    .nav-content{
+        width: calc(100% - 30px);
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .hero-sec{
+        background: #034e52;
+    }
+
+    .hero{
+        width: calc(100% - 30px);
+        flex-direction: column;
+    }
+
+    .hero-content{
+        width: 100%;
+    }
+
+    .hero-btn >button{
+        background-color: white;
+        color: #034e52;
+    }
+     
+    .hero-content> h1{
+        width: 100%;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .service-card-wrapper{
+        flex-direction: column;
+        max-width: 320px;
+        margin: auto;
+        gap: 2rem;
+    }
+
+    .service-card{
+        width: 100%;
+        padding-inline: 0;
+    }
+
+    .discover >h1{
+        font-size: 2.2rem;
+    }
+
+    .discover-doctors-wrapper{
+        width: calc(100% - 30px);
+        grid-template-columns: 1fr;
+    }
+
 }
